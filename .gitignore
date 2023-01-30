@@ -1,0 +1,4 @@
+# created by virtualenv automatically
+*.idea*
+*pytest_cache*
+*venv_edureka*
