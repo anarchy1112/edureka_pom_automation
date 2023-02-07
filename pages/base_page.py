@@ -1,3 +1,4 @@
+from selenium.common import NoSuchElementException
 from selenium.webdriver import ActionChains, Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -87,3 +88,10 @@ class BasePage:
 
     def attributes(self, locator, value):
         self.driver.find_element(By.XPATH, confread('locators', locator)).get_attribute(value)
+
+    def element_present(self, locator):
+        try:
+            self.driver.find_element(By.XPATH, confread('locators', locator))
+        except NoSuchElementException:
+            return False
+        return True

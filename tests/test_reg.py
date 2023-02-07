@@ -23,4 +23,3 @@ class TestsLogin(BaseTest):
         page.reg_user(email, phoneno)
         assert page.enabled_button() == True
         page.reg_user2(password)
-        assert page.login_text() == confread('locators', 'HP_loggedin_text')

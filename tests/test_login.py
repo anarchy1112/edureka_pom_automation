@@ -20,4 +20,8 @@ class TestsLogin(BaseTest):
     def test_login_fail(self, email, password):
         page = HomePage(self.driver)
         page.dologin(email, password)
+        if page.element_present('login_win_email_err_XPATH'):
+            assert page.text_extract('login_win_email_err_XPATH')==confread('locators','login_win_email_err_text')
+        elif page.element_present('login_win_pass_err_XPATH'):
+            assert page.text_extract('login_win_pass_err_XPATH')==confread('locators','login_win_pass_err_text')
         assert page.login_text() == confread('locators', 'HP_loggedin_text')

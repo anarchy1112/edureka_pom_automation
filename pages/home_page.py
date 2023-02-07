@@ -10,6 +10,7 @@ class HomePage(BasePage):
         self.type('signupWin_phone_XPATH', phoneno)
         self.click('signupWin_chkbx_XPATH')
 
+
     def enabled_button(self):
         return self.enable_check('signupWin_btn_XPATH')
 
@@ -29,3 +30,5 @@ class HomePage(BasePage):
 
     def login_text(self):
         return self.text_extract('HP_loggedin_edureka_XPATH')
+
+
