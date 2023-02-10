@@ -1,0 +1,10 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://localhost:8080/",
+  "buildOrder" : 3,
+  "buildName" : "edureka_POM_automation #3",
+  "buildUrl" : "http://localhost:8080/job/edureka_POM_automation/3/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure"
+} ]

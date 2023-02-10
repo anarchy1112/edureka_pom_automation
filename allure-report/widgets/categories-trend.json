@@ -1,0 +1,6 @@
+[ {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+} ]

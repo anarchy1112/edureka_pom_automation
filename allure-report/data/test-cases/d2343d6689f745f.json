@@ -1,0 +1,115 @@
+{
+  "uid" : "d2343d6689f745f",
+  "name" : "test_login_pass[asdretu@gmail.com-Asedased]",
+  "fullName" : "test_login.TestsLogin#test_login_pass",
+  "historyId" : "433d95214bb4371ecf0f318f721d94a6",
+  "time" : {
+    "start" : 1676066796443,
+    "stop" : 1676066815490,
+    "duration" : 19047
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1676066788595,
+      "stop" : 1676066796442,
+      "duration" : 7847
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5ba34a62161dcdb4",
+      "name" : "test_login",
+      "source" : "5ba34a62161dcdb4.png",
+      "type" : "image/png",
+      "size" : 709233
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1676066815493,
+      "stop" : 1676066817720,
+      "duration" : 2227
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "happyflow"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('setup')"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestsLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T81NDI4"
+  }, {
+    "name" : "thread",
+    "value" : "18324-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email",
+    "value" : "'asdretu@gmail.com'"
+  }, {
+    "name" : "password",
+    "value" : "'Asedased'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "happyflow", "@pytest.mark.usefixtures('setup')" ]
+  },
+  "source" : "d2343d6689f745f.json",
+  "parameterValues" : [ "'asdretu@gmail.com'", "'Asedased'" ]
+}

@@ -1,0 +1,131 @@
+{
+  "uid" : "2690fe9ed0c46821",
+  "name" : "test_reg_fail[asdretdu@gmail.com-658986542-AsedasedasAsedasedasAsedasedasAsedasedasAsedasedass]",
+  "fullName" : "test_reg.TestsReg#test_reg_fail",
+  "historyId" : "deaadea8b66106522a631951d2818f67",
+  "time" : {
+    "start" : 1676066993134,
+    "stop" : 1676067003290,
+    "duration" : 10156
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nAssertionError: assert False\n +  where False = <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB59130>>('HP_loggedin_edureka_XPATH')\n +    where <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB59130>> = <pages.home_page.HomePage object at 0x000002594FB59130>.element_present",
+  "statusTrace" : "self = <test_reg.TestsReg object at 0x000002594EA04D30>\nemail = 'asdretdu@gmail.com', phoneno = 658986542\npassword = 'AsedasedasAsedasedasAsedasedasAsedasedasAsedasedass'\n\n    @pytest.mark.negativeinput\n    @pytest.mark.xfail\n    @pytest.mark.parametrize('email, phoneno, password', getdata('TestDataPath','test_register_sheet_fail'))\n    def test_reg_fail(self, email, phoneno, password):\n        page = HomePage(self.driver)\n        page.reg_user(email, phoneno)\n        page.wait_visible('locators', 'signupWin_btn_XPATH')\n        assert page.enabled_button() == True\n        page.alluress('test_reg_fail')\n        page.reg_user2(password)\n        page.alluress('test_reg_fail')\n>       assert page.element_present('HP_loggedin_edureka_XPATH')\nE       AssertionError: assert False\nE        +  where False = <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB59130>>('HP_loggedin_edureka_XPATH')\nE        +    where <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB59130>> = <pages.home_page.HomePage object at 0x000002594FB59130>.element_present\n\ntest_reg.py:35: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1676066986368,
+      "stop" : 1676066993133,
+      "duration" : 6765
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\nAssertionError: assert False\n +  where False = <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB59130>>('HP_loggedin_edureka_XPATH')\n +    where <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB59130>> = <pages.home_page.HomePage object at 0x000002594FB59130>.element_present",
+    "statusTrace" : "self = <test_reg.TestsReg object at 0x000002594EA04D30>\nemail = 'asdretdu@gmail.com', phoneno = 658986542\npassword = 'AsedasedasAsedasedasAsedasedasAsedasedasAsedasedass'\n\n    @pytest.mark.negativeinput\n    @pytest.mark.xfail\n    @pytest.mark.parametrize('email, phoneno, password', getdata('TestDataPath','test_register_sheet_fail'))\n    def test_reg_fail(self, email, phoneno, password):\n        page = HomePage(self.driver)\n        page.reg_user(email, phoneno)\n        page.wait_visible('locators', 'signupWin_btn_XPATH')\n        assert page.enabled_button() == True\n        page.alluress('test_reg_fail')\n        page.reg_user2(password)\n        page.alluress('test_reg_fail')\n>       assert page.element_present('HP_loggedin_edureka_XPATH')\nE       AssertionError: assert False\nE        +  where False = <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB59130>>('HP_loggedin_edureka_XPATH')\nE        +    where <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB59130>> = <pages.home_page.HomePage object at 0x000002594FB59130>.element_present\n\ntest_reg.py:35: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cf06b83d9dd69955",
+      "name" : "test_reg_fail",
+      "source" : "cf06b83d9dd69955.png",
+      "type" : "image/png",
+      "size" : 406415
+    }, {
+      "uid" : "4c7a2bf050dde167",
+      "name" : "test_reg_fail",
+      "source" : "4c7a2bf050dde167.png",
+      "type" : "image/png",
+      "size" : 419876
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1676067003300,
+      "stop" : 1676067005570,
+      "duration" : 2270
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "tag",
+    "value" : "negativeinput"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('setup')"
+  }, {
+    "name" : "suite",
+    "value" : "test_reg"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestsReg"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T81NDI4"
+  }, {
+    "name" : "thread",
+    "value" : "18324-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_reg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email",
+    "value" : "'asdretdu@gmail.com'"
+  }, {
+    "name" : "password",
+    "value" : "'AsedasedasAsedasedasAsedasedasAsedasedasAsedasedass'"
+  }, {
+    "name" : "phoneno",
+    "value" : "658986542"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail", "negativeinput", "@pytest.mark.usefixtures('setup')" ]
+  },
+  "source" : "2690fe9ed0c46821.json",
+  "parameterValues" : [ "'asdretdu@gmail.com'", "'AsedasedasAsedasedasAsedasedasAsedasedasAsedasedass'", "658986542" ]
+}

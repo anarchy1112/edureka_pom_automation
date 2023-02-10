@@ -1,0 +1,13 @@
+[ {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 26,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 28
+  }
+} ]

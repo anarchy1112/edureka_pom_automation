@@ -29,6 +29,6 @@ class HomePage(BasePage):
         self.click('login_win_btn_XPATH')
 
     def login_text(self):
-        return self.text_extract('HP_loggedin_edureka_XPATH')
+        return self.text_extract('locators', 'HP_loggedin_edureka_XPATH')
 
 

@@ -1,3 +1,4 @@
+from allure_commons.types import AttachmentType
 from selenium.common import NoSuchElementException
 from selenium.webdriver import ActionChains, Keys
 from selenium.webdriver.common.by import By
@@ -5,6 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from utilities.confreader import confread
+import allure
 
 class BasePage:
 
@@ -20,13 +22,13 @@ class BasePage:
     def erase(self, locator):
         self.driver.find_element(By.XPATH, confread('locators', locator)).clear()
 
-    def wait_visible(self, locator):
+    def wait_visible(self, section, locator):
         wait=WebDriverWait(self.driver,10)
-        wait.until(EC.visibility_of_element_located(By.XPATH, confread('locators', locator)))
+        wait.until(EC.visibility_of_element_located((By.XPATH, confread(section, locator))))
 
-    def wait_clickable(self, locator):
+    def wait_clickable(self, section, locator):
         wait = WebDriverWait(self.driver, 10)
-        wait.until(EC.element_to_be_clickable(By.XPATH, confread('locators', locator)))
+        wait.until(EC.element_to_be_clickable((By.XPATH, confread(section, locator))))
 
     def right_click(self, locator):
         action=ActionChains(self.driver)
@@ -44,10 +46,10 @@ class BasePage:
         action.double_click(element).perform()
 
     def enable_check(self, locator):
-        self.driver.find_element(By.XPATH, confread('locators', locator)).is_enabled()
+        return self.driver.find_element(By.XPATH, confread('locators', locator)).is_enabled()
 
-    def text_extract(self, locator):
-        return self.driver.find_element(By.XPATH, confread('locators', locator)).text
+    def text_extract(self, section, locator):
+        return self.driver.find_element(By.XPATH, confread(section, locator)).text
 
     def elem(self, locator):
         self.driver.find_element(By.XPATH, confread('locators', locator))
@@ -95,3 +97,9 @@ class BasePage:
         except NoSuchElementException:
             return False
         return True
+
+    def screenshot(self):
+        self.driver.get_screenshot_as_png()
+
+    def alluress(self, name):
+        allure.attach(self.driver.get_screenshot_as_png(), name=name, attachment_type=AttachmentType.PNG)

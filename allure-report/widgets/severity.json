@@ -1,0 +1,281 @@
+[ {
+  "uid" : "d2343d6689f745f",
+  "name" : "test_login_pass[asdretu@gmail.com-Asedased]",
+  "time" : {
+    "start" : 1676066796443,
+    "stop" : 1676066815490,
+    "duration" : 19047
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60911683a911052",
+  "name" : "test_reg_fail[fdsfdsffsd-sdfsdfdsf-None]",
+  "time" : {
+    "start" : 1676067191111,
+    "stop" : 1676067194879,
+    "duration" : 3768
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "faf3d0a16ec6796b",
+  "name" : "test_reg_fail[afghsdretu@gmail.com-658987542-        ]",
+  "time" : {
+    "start" : 1676067085537,
+    "stop" : 1676067097340,
+    "duration" : 11803
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ad081a3a415878f5",
+  "name" : "test_reg_fail[afghsdretu@gmail.com-658987542-asedased]",
+  "time" : {
+    "start" : 1676067031089,
+    "stop" : 1676067041506,
+    "duration" : 10417
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "84f0d66bd21ed1f6",
+  "name" : "test_reg_fail[afghsdretu@gmail.com-42-None]",
+  "time" : {
+    "start" : 1676067163083,
+    "stop" : 1676067166899,
+    "duration" : 3816
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ad9bbaad94821140",
+  "name" : "test_reg_fail[afghsdretu@gmail.com-6.58987554265898e+79-None]",
+  "time" : {
+    "start" : 1676067218478,
+    "stop" : 1676067221885,
+    "duration" : 3407
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cbbcc538d2e7287b",
+  "name" : "test_login_fail[fdgfdgdsfgdsf-Asedased]",
+  "time" : {
+    "start" : 1676066882317,
+    "stop" : 1676066891434,
+    "duration" : 9117
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2690fe9ed0c46821",
+  "name" : "test_reg_fail[asdretdu@gmail.com-658986542-AsedasedasAsedasedasAsedasedasAsedasedasAsedasedass]",
+  "time" : {
+    "start" : 1676066993134,
+    "stop" : 1676067003290,
+    "duration" : 10156
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6ed265151035734d",
+  "name" : "test_reg_fail[afghsdretu@gmail.com-658987542-As]",
+  "time" : {
+    "start" : 1676067053070,
+    "stop" : 1676067064068,
+    "duration" : 10998
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "74b65eb6c1838b16",
+  "name" : "test_login_fail[None-Asedased]",
+  "time" : {
+    "start" : 1676066858890,
+    "stop" : 1676066861358,
+    "duration" : 2468
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cd4641f648b57387",
+  "name" : "test_reg_fail[afghsdretu@gmail.com-                                    -None]",
+  "time" : {
+    "start" : 1676067244822,
+    "stop" : 1676067248656,
+    "duration" : 3834
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2f1b2cb4233c5355",
+  "name" : "test_reg_fail[None-658987542-None]",
+  "time" : {
+    "start" : 1676067140020,
+    "stop" : 1676067141767,
+    "duration" : 1747
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f46486f550968b8",
+  "name" : "test_reg_fail[afghsdretu@gmail.com-fsdfsdfsdf-None]",
+  "time" : {
+    "start" : 1676067203862,
+    "stop" : 1676067208764,
+    "duration" : 4902
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "98b0b8dff63e60c3",
+  "name" : "test_login_fail[asdretu@gmail.com-Asedasedfgfghfghgf]",
+  "time" : {
+    "start" : 1676066919672,
+    "stop" : 1676066927686,
+    "duration" : 8014
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1524700767fbe8e7",
+  "name" : "test_reg_fail[afghsdretu@gmail.com-658987542-ASEDSAFR]",
+  "time" : {
+    "start" : 1676067012092,
+    "stop" : 1676067022921,
+    "duration" : 10829
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d0a80099e7fdf588",
+  "name" : "test_reg_fail[afghsdretu@gmail.com-658987542-None]",
+  "time" : {
+    "start" : 1676067073091,
+    "stop" : 1676067076074,
+    "duration" : 2983
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3b1f55d383aa3169",
+  "name" : "test_reg_fail[None-None-None]",
+  "time" : {
+    "start" : 1676067151718,
+    "stop" : 1676067153550,
+    "duration" : 1832
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "890e30b27f0570cc",
+  "name" : "test_reg_fail[                             -658987542-None]",
+  "time" : {
+    "start" : 1676067231374,
+    "stop" : 1676067235052,
+    "duration" : 3678
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a6c41ecd7b209e89",
+  "name" : "test_login_fail[None-None]",
+  "time" : {
+    "start" : 1676066870338,
+    "stop" : 1676066872956,
+    "duration" : 2618
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7296ed3be15f1cc",
+  "name" : "test_reg_fail[asdhfgretu@gmail.com-658987542-Asedased]",
+  "time" : {
+    "start" : 1676066975072,
+    "stop" : 1676066983959,
+    "duration" : 8887
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7a3e6b81ed564015",
+  "name" : "test_reg_pass[rekuhzdftu@gmail.com-658987542-Asedased]",
+  "time" : {
+    "start" : 1676066952777,
+    "stop" : 1676066966390,
+    "duration" : 13613
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d4ff83c0464c61f",
+  "name" : "test_login_fail[asdretu@gmail.com-None]",
+  "time" : {
+    "start" : 1676066826214,
+    "stop" : 1676066829565,
+    "duration" : 3351
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f867642a055c4c8d",
+  "name" : "test_reg_fail[afghsdretu@gmail.com-None-None]",
+  "time" : {
+    "start" : 1676067126867,
+    "stop" : 1676067129910,
+    "duration" : 3043
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ffb38ca1a16f955b",
+  "name" : "test_login_fail[cvbcvbcvb-bcvbcv]",
+  "time" : {
+    "start" : 1676066936377,
+    "stop" : 1676066944569,
+    "duration" : 8192
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f3a0e9b73410678a",
+  "name" : "test_reg_fail[afghsdretu@gmail.com-658987542-#$%&/()=]",
+  "time" : {
+    "start" : 1676067107423,
+    "stop" : 1676067117518,
+    "duration" : 10095
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7f86f12e2507b12",
+  "name" : "test_login_fail[asdretsdu@gmail.com-adsed]",
+  "time" : {
+    "start" : 1676066901381,
+    "stop" : 1676066910733,
+    "duration" : 9352
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "66ef2c827776dda9",
+  "name" : "test_reg_fail[gdgdgsdgd-658987542-None]",
+  "time" : {
+    "start" : 1676067177053,
+    "stop" : 1676067181583,
+    "duration" : 4530
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f591da3958679ea3",
+  "name" : "test_reg_fail[                           -                             -None]",
+  "time" : {
+    "start" : 1676067262170,
+    "stop" : 1676067266591,
+    "duration" : 4421
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

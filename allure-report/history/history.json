@@ -1,0 +1,588 @@
+{
+  "29525926780277bfe137e6280525daf3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ad081a3a415878f5",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/ad081a3a415878f5",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert False\n +  where False = <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594EA1BAF0>>('HP_loggedin_edureka_XPATH')\n +    where <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594EA1BAF0>> = <pages.home_page.HomePage object at 0x000002594EA1BAF0>.element_present",
+      "time" : {
+        "start" : 1676067031089,
+        "stop" : 1676067041506,
+        "duration" : 10417
+      }
+    } ]
+  },
+  "1b6172e0c6e8f0b325fe643fafa7deea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ad9bbaad94821140",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/ad9bbaad94821140",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nTypeError: object of type 'NoneType' has no len()",
+      "time" : {
+        "start" : 1676067218478,
+        "stop" : 1676067221885,
+        "duration" : 3407
+      }
+    } ]
+  },
+  "7f268eb9c90d2c85aecedd5523c8a333" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "98b0b8dff63e60c3",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/98b0b8dff63e60c3",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert False\n +  where False = <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB55B20>>('HP_loggedin_edureka_XPATH')\n +    where <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB55B20>> = <pages.home_page.HomePage object at 0x000002594FB55B20>.element_present",
+      "time" : {
+        "start" : 1676066919672,
+        "stop" : 1676066927686,
+        "duration" : 8014
+      }
+    } ]
+  },
+  "09823cf1fff914e027981d6fd5fe296a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a3e6b81ed564015",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/7a3e6b81ed564015",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676066952777,
+        "stop" : 1676066966390,
+        "duration" : 13613
+      }
+    } ]
+  },
+  "3838caad2cd6faaea7fff95986711745" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a6c41ecd7b209e89",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/a6c41ecd7b209e89",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nTypeError: object of type 'NoneType' has no len()",
+      "time" : {
+        "start" : 1676066870338,
+        "stop" : 1676066872956,
+        "duration" : 2618
+      }
+    } ]
+  },
+  "f8301ce407edea3b693c56b80f7b7356" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f46486f550968b8",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/f46486f550968b8",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nTypeError: object of type 'NoneType' has no len()",
+      "time" : {
+        "start" : 1676067203862,
+        "stop" : 1676067208764,
+        "duration" : 4902
+      }
+    } ]
+  },
+  "69f19b80e2d24082abaaf5eb02a87a62" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7296ed3be15f1cc",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/7296ed3be15f1cc",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=109.0.5414.120)\nStacktrace:\nBacktrace:\n\t(No symbol) [0x00C16643]\n\t(No symbol) [0x00BABE21]\n\t(No symbol) [0x00AAD960]\n\t(No symbol) [0x00ADC3BE]\n\t(No symbol) [0x00ADB7AB]\n\t(No symbol) [0x00AFFD7C]\n\t(No symbol) [0x00AD641F]\n\t(No symbol) [0x00B000D4]\n\t(No symbol) [0x00B16B09]\n\t(No symbol) [0x00AFFB76]\n\t(No symbol) [0x00AD49C1]\n\t(No symbol) [0x00AD5E5D]\n\tGetHandleVerifier [0x00E8A142+2497106]\n\tGetHandleVerifier [0x00EB85D3+2686691]\n\tGetHandleVerifier [0x00EBBB9C+2700460]\n\tGetHandleVerifier [0x00CC3B10+635936]\n\t(No symbol) [0x00BB4A1F]\n\t(No symbol) [0x00BBA418]\n\t(No symbol) [0x00BBA505]\n\t(No symbol) [0x00BC508B]\n\tBaseThreadInitThunk [0x756900F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77677BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77677B8E+238]",
+      "time" : {
+        "start" : 1676066975072,
+        "stop" : 1676066983959,
+        "duration" : 8887
+      }
+    } ]
+  },
+  "433d95214bb4371ecf0f318f721d94a6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d2343d6689f745f",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/d2343d6689f745f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676066796443,
+        "stop" : 1676066815490,
+        "duration" : 19047
+      }
+    } ]
+  },
+  "523644bbce65380e833059cb17b83386" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1524700767fbe8e7",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/1524700767fbe8e7",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert False\n +  where False = <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB2E310>>('HP_loggedin_edureka_XPATH')\n +    where <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB2E310>> = <pages.home_page.HomePage object at 0x000002594FB2E310>.element_present",
+      "time" : {
+        "start" : 1676067012092,
+        "stop" : 1676067022921,
+        "duration" : 10829
+      }
+    } ]
+  },
+  "6c6fd0ea7ce14cf24d5709b8bfb62262" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f3a0e9b73410678a",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/f3a0e9b73410678a",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert False\n +  where False = <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB55DC0>>('HP_loggedin_edureka_XPATH')\n +    where <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB55DC0>> = <pages.home_page.HomePage object at 0x000002594FB55DC0>.element_present",
+      "time" : {
+        "start" : 1676067107423,
+        "stop" : 1676067117518,
+        "duration" : 10095
+      }
+    } ]
+  },
+  "1d238b7c3bd4665545aa060d63a8a58f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ffb38ca1a16f955b",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/ffb38ca1a16f955b",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert False\n +  where False = <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594E9DD700>>('HP_loggedin_edureka_XPATH')\n +    where <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594E9DD700>> = <pages.home_page.HomePage object at 0x000002594E9DD700>.element_present",
+      "time" : {
+        "start" : 1676066936377,
+        "stop" : 1676066944569,
+        "duration" : 8192
+      }
+    } ]
+  },
+  "9715172312c7b3904cc84b67881eab12" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd4641f648b57387",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/cd4641f648b57387",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nTypeError: object of type 'NoneType' has no len()",
+      "time" : {
+        "start" : 1676067244822,
+        "stop" : 1676067248656,
+        "duration" : 3834
+      }
+    } ]
+  },
+  "51d674d6f5c1b6de16908045aa5665b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2f1b2cb4233c5355",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/2f1b2cb4233c5355",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nTypeError: object of type 'NoneType' has no len()",
+      "time" : {
+        "start" : 1676067140020,
+        "stop" : 1676067141767,
+        "duration" : 1747
+      }
+    } ]
+  },
+  "deaadea8b66106522a631951d2818f67" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2690fe9ed0c46821",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/2690fe9ed0c46821",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert False\n +  where False = <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB59130>>('HP_loggedin_edureka_XPATH')\n +    where <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB59130>> = <pages.home_page.HomePage object at 0x000002594FB59130>.element_present",
+      "time" : {
+        "start" : 1676066993134,
+        "stop" : 1676067003290,
+        "duration" : 10156
+      }
+    } ]
+  },
+  "a68cd05a071cdee997176b9b58bb447d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cbbcc538d2e7287b",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/cbbcc538d2e7287b",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert False\n +  where False = <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594EAB2700>>('HP_loggedin_edureka_XPATH')\n +    where <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594EAB2700>> = <pages.home_page.HomePage object at 0x000002594EAB2700>.element_present",
+      "time" : {
+        "start" : 1676066882317,
+        "stop" : 1676066891434,
+        "duration" : 9117
+      }
+    } ]
+  },
+  "df111692330884b81e621fb7747c4cdc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f591da3958679ea3",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/f591da3958679ea3",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nTypeError: object of type 'NoneType' has no len()",
+      "time" : {
+        "start" : 1676067262170,
+        "stop" : 1676067266591,
+        "duration" : 4421
+      }
+    } ]
+  },
+  "a1707a2c24870694767804eb007c4f47" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84f0d66bd21ed1f6",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/84f0d66bd21ed1f6",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nTypeError: object of type 'NoneType' has no len()",
+      "time" : {
+        "start" : 1676067163083,
+        "stop" : 1676067166899,
+        "duration" : 3816
+      }
+    } ]
+  },
+  "1170b46a76ae143c9f763d27f9fa9574" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ed265151035734d",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/6ed265151035734d",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert False\n +  where False = <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB34C70>>('HP_loggedin_edureka_XPATH')\n +    where <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB34C70>> = <pages.home_page.HomePage object at 0x000002594FB34C70>.element_present",
+      "time" : {
+        "start" : 1676067053070,
+        "stop" : 1676067064068,
+        "duration" : 10998
+      }
+    } ]
+  },
+  "86b88cb49f14a39407999669b96a82bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7f86f12e2507b12",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/7f86f12e2507b12",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert False\n +  where False = <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594EA2BA60>>('HP_loggedin_edureka_XPATH')\n +    where <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594EA2BA60>> = <pages.home_page.HomePage object at 0x000002594EA2BA60>.element_present",
+      "time" : {
+        "start" : 1676066901381,
+        "stop" : 1676066910733,
+        "duration" : 9352
+      }
+    } ]
+  },
+  "46b44e59a48f069b34fede0e5a395b86" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d4ff83c0464c61f",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/9d4ff83c0464c61f",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nTypeError: object of type 'NoneType' has no len()",
+      "time" : {
+        "start" : 1676066826214,
+        "stop" : 1676066829565,
+        "duration" : 3351
+      }
+    } ]
+  },
+  "0e9ccf514b57b7276af59e2ac48d08eb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "faf3d0a16ec6796b",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/faf3d0a16ec6796b",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert False\n +  where False = <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB55AF0>>('HP_loggedin_edureka_XPATH')\n +    where <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB55AF0>> = <pages.home_page.HomePage object at 0x000002594FB55AF0>.element_present",
+      "time" : {
+        "start" : 1676067085537,
+        "stop" : 1676067097340,
+        "duration" : 11803
+      }
+    } ]
+  },
+  "2c1a5d05b27cca58b5d27ad0db0d1e1a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "890e30b27f0570cc",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/890e30b27f0570cc",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nTypeError: object of type 'NoneType' has no len()",
+      "time" : {
+        "start" : 1676067231374,
+        "stop" : 1676067235052,
+        "duration" : 3678
+      }
+    } ]
+  },
+  "8f6aa38798ff48fa54876d75ccd99b36" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60911683a911052",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/60911683a911052",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nTypeError: object of type 'NoneType' has no len()",
+      "time" : {
+        "start" : 1676067191111,
+        "stop" : 1676067194879,
+        "duration" : 3768
+      }
+    } ]
+  },
+  "42401d97ff94fc7138b13d7ec196126d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f867642a055c4c8d",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/f867642a055c4c8d",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nTypeError: object of type 'NoneType' has no len()",
+      "time" : {
+        "start" : 1676067126867,
+        "stop" : 1676067129910,
+        "duration" : 3043
+      }
+    } ]
+  },
+  "9c8a88005c64d69fde749736961c13b5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "74b65eb6c1838b16",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/74b65eb6c1838b16",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nTypeError: object of type 'NoneType' has no len()",
+      "time" : {
+        "start" : 1676066858890,
+        "stop" : 1676066861358,
+        "duration" : 2468
+      }
+    } ]
+  },
+  "2db8acc06b79a08e53aa7cbec360381d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "66ef2c827776dda9",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/66ef2c827776dda9",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nTypeError: object of type 'NoneType' has no len()",
+      "time" : {
+        "start" : 1676067177053,
+        "stop" : 1676067181583,
+        "duration" : 4530
+      }
+    } ]
+  },
+  "13049c8ee27f746d35537a0b0325145f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d0a80099e7fdf588",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/d0a80099e7fdf588",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nTypeError: object of type 'NoneType' has no len()",
+      "time" : {
+        "start" : 1676067073091,
+        "stop" : 1676067076074,
+        "duration" : 2983
+      }
+    } ]
+  },
+  "be1a0cd609d1b048a17797e17e75c443" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b1f55d383aa3169",
+      "reportUrl" : "http://localhost:8080/job/edureka_POM_automation/3/allure/#testresult/3b1f55d383aa3169",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nTypeError: object of type 'NoneType' has no len()",
+      "time" : {
+        "start" : 1676067151718,
+        "stop" : 1676067153550,
+        "duration" : 1832
+      }
+    } ]
+  }
+}

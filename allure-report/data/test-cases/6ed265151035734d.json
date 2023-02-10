@@ -1,0 +1,131 @@
+{
+  "uid" : "6ed265151035734d",
+  "name" : "test_reg_fail[afghsdretu@gmail.com-658987542-As]",
+  "fullName" : "test_reg.TestsReg#test_reg_fail",
+  "historyId" : "1170b46a76ae143c9f763d27f9fa9574",
+  "time" : {
+    "start" : 1676067053070,
+    "stop" : 1676067064068,
+    "duration" : 10998
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nAssertionError: assert False\n +  where False = <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB34C70>>('HP_loggedin_edureka_XPATH')\n +    where <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB34C70>> = <pages.home_page.HomePage object at 0x000002594FB34C70>.element_present",
+  "statusTrace" : "self = <test_reg.TestsReg object at 0x000002594EA2B7C0>\nemail = 'afghsdretu@gmail.com', phoneno = 658987542, password = 'As'\n\n    @pytest.mark.negativeinput\n    @pytest.mark.xfail\n    @pytest.mark.parametrize('email, phoneno, password', getdata('TestDataPath','test_register_sheet_fail'))\n    def test_reg_fail(self, email, phoneno, password):\n        page = HomePage(self.driver)\n        page.reg_user(email, phoneno)\n        page.wait_visible('locators', 'signupWin_btn_XPATH')\n        assert page.enabled_button() == True\n        page.alluress('test_reg_fail')\n        page.reg_user2(password)\n        page.alluress('test_reg_fail')\n>       assert page.element_present('HP_loggedin_edureka_XPATH')\nE       AssertionError: assert False\nE        +  where False = <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB34C70>>('HP_loggedin_edureka_XPATH')\nE        +    where <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB34C70>> = <pages.home_page.HomePage object at 0x000002594FB34C70>.element_present\n\ntest_reg.py:35: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1676067043745,
+      "stop" : 1676067053069,
+      "duration" : 9324
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\nAssertionError: assert False\n +  where False = <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB34C70>>('HP_loggedin_edureka_XPATH')\n +    where <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB34C70>> = <pages.home_page.HomePage object at 0x000002594FB34C70>.element_present",
+    "statusTrace" : "self = <test_reg.TestsReg object at 0x000002594EA2B7C0>\nemail = 'afghsdretu@gmail.com', phoneno = 658987542, password = 'As'\n\n    @pytest.mark.negativeinput\n    @pytest.mark.xfail\n    @pytest.mark.parametrize('email, phoneno, password', getdata('TestDataPath','test_register_sheet_fail'))\n    def test_reg_fail(self, email, phoneno, password):\n        page = HomePage(self.driver)\n        page.reg_user(email, phoneno)\n        page.wait_visible('locators', 'signupWin_btn_XPATH')\n        assert page.enabled_button() == True\n        page.alluress('test_reg_fail')\n        page.reg_user2(password)\n        page.alluress('test_reg_fail')\n>       assert page.element_present('HP_loggedin_edureka_XPATH')\nE       AssertionError: assert False\nE        +  where False = <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB34C70>>('HP_loggedin_edureka_XPATH')\nE        +    where <bound method BasePage.element_present of <pages.home_page.HomePage object at 0x000002594FB34C70>> = <pages.home_page.HomePage object at 0x000002594FB34C70>.element_present\n\ntest_reg.py:35: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "34778b449baf2a5a",
+      "name" : "test_reg_fail",
+      "source" : "34778b449baf2a5a.png",
+      "type" : "image/png",
+      "size" : 405939
+    }, {
+      "uid" : "41df1735ad3c3fb4",
+      "name" : "test_reg_fail",
+      "source" : "41df1735ad3c3fb4.png",
+      "type" : "image/png",
+      "size" : 421091
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1676067064078,
+      "stop" : 1676067066285,
+      "duration" : 2207
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "tag",
+    "value" : "negativeinput"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('setup')"
+  }, {
+    "name" : "suite",
+    "value" : "test_reg"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestsReg"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T81NDI4"
+  }, {
+    "name" : "thread",
+    "value" : "18324-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_reg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email",
+    "value" : "'afghsdretu@gmail.com'"
+  }, {
+    "name" : "password",
+    "value" : "'As'"
+  }, {
+    "name" : "phoneno",
+    "value" : "658987542"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail", "negativeinput", "@pytest.mark.usefixtures('setup')" ]
+  },
+  "source" : "6ed265151035734d.json",
+  "parameterValues" : [ "'afghsdretu@gmail.com'", "'As'", "658987542" ]
+}
