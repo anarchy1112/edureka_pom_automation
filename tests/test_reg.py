@@ -1,4 +1,3 @@
-import time
 
 import pytest
 from pages.home_page import HomePage
@@ -10,7 +9,7 @@ from utilities.datagetter import getdata
 class TestsReg(BaseTest):
 
     @pytest.mark.happyflow
-    @pytest.mark.parametrize('email, phoneno, password', getdata('TestDataPath','test_register_sheet'))
+    @pytest.mark.parametrize('email, phoneno, password', getdata('TestDataPath', 'test_register_sheet'))
     def test_reg_pass(self, email, phoneno, password):
         page=HomePage(self.driver)
         page.reg_user(email, phoneno)
